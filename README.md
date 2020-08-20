@@ -1,6 +1,9 @@
 # Python ile Görüntü İşleme Staj Projesi
 Öncelikle bu pandemi döneminde uzaktan staj çalışması boyunca bana yardımcı olan danışmanım Öğr. Gör. Dr. Alper VAHAPLAR’a teşekkür ederim.
 
+## Proje Dökümanları
+- [Proje Raporu](/Rapor-Ağustos-2020.pdf)
+
 ## Görüntü İşleme
 Görüntü işleme, bir görüntüyü sayısal hale dönüştürdükten sonra elde edilen verilere matematiksel işlemler ve farklı yöntemler uygulanarak çeşitli çıkarımlar oluşturma ya da yeni görüntüler üretme tekniğidir. Görüntü işleme tekniği, görüntünün netliğini artırma, ışık değerlerini değiştirme ve görüntü üzerinde bulunan herhangi bir nesnenin tanımlanabilmesi gibi birçok amaçla kullanılmaktadır. Görüntü işleme uygulamaları son yıllarda ciddi bir artış göstermiştir. Özellikle araç içi otomasyon sistemlerinden, robot uygulamalarında, askeri uygulamalardan tarım uygulamalarına kadar birçok alanda yaygın olarak kullanılmaktadır. (SAMTAŞ & GÜLESİN, 2011)
 
@@ -9,10 +12,12 @@ Python programlama dilinde görüntü işlemede genellikle Numpy, OpenCV, Matplo
 
 ## Uygulama
 Raporda Bölüm Üç Olan	Uygulama kısmında şu konular yer almaktadır:
-- Küçültme-Piksel Değiştirme Metodu	14
-- Küçültme-İnterpolasyon Metodu	15
-- Büyültme-Piksel Değiştirme Metodu	16
-- Büyültme-Piksel İnterpolasyonu Metodu	17
+- [Küçültme-Piksel Değiştirme Metodu](/Küçültme-Piksel%20Değiştirme%20Metodu.py)
+- [Küçültme-İnterpolasyon Metodu](/Küçültme-İnterpolasyon%20Metodu.py)
+- [Büyültme-Piksel Değiştirme Metodu](/Büyültme-Piksel%20Değiştirme%20Metodu.py)
+- [Büyültme-Piksel İnterpolasyonu Metodu](/Büyültme-Piksel%20İnterpolasyonu%20Metodu.py)
+
+*Kodlar tarafımdan yazılmıştır, alıntı değildir.*
 
 ## SONUÇ
 Python programla dili ile “Görüntü İşleme” projesi kapsamında, Numpy, OpenCV, Matplotlib, Pillow kütüphaneleri kullanılmıştır. OpenCV kütüphanesi yardımıyla Python üzerinde üçgen ve daire gibi geometrik şekiller for döngüsü yardımıyla çizilmiştir. Bu çizilen şekiller üzerinde grayscale dönüşüm yapılarak edge detection uygulanmıştır. Ayrıca elektronik bir ortamda çizilen renkli bir görüntü, dijital olarak Python üzerinde okutulmuştur. Bu okutulan görüntü Kırmızı, Yeşil ve Mavi (RGB) renklerinden oluştuğu için çift katlı array veri yapısında saklanmıştır. Bu görüntü üzerinde Numpy kütüphanesi yardımıyla küçültme ve büyültme yöntemlerini uygulamak için çarpma, toplama gibi matris işlemleri yapılmıştır. 
